@@ -10,4 +10,11 @@ public class test {
     public void setSe(String se) {
         this.se = se;
     }
+
+    @Override
+    public String toString() {
+        return "test{" +
+                "se='" + se + '\'' +
+                '}';
+    }
 }
